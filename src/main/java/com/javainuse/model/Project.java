@@ -19,9 +19,11 @@ import org.hibernate.annotations.OnDeleteAction;
 import lombok.Data;
 
 
+
 @Entity
 @Table(name = "POC2ProjectsDB")
 @Data
+
 
 public class Project {
 	@Id
